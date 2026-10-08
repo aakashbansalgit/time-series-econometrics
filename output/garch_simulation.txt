@@ -1,0 +1,6 @@
+GARCH(2,2), 10000 observations
+persistence                    0.9500
+sample mean of a_t             -0.00709
+implied unconditional variance 2.0000
+sample variance of a_t         2.0352
+mean conditional variance      2.0293

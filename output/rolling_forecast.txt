@@ -1,0 +1,21 @@
+Running arma(1,1)+garch(2,2) 
+Running arma(0,2)+garch(2,2) 
+Running arma(0,0)+garch(1,1) 
+
+Forecasts start at observation 2001 of 5754 
+
+arma(1,1)+garch(2,2) 
+  forecasts: 3754 
+  MSE: 5.312e-07 
+  QLIKE: -6.46249 
+arma(0,2)+garch(2,2) 
+  forecasts: 3754 
+  MSE: 5.303e-07 
+  QLIKE: -6.4422 
+arma(0,0)+garch(1,1) 
+  forecasts: 3754 
+  MSE: 5.466e-07 
+  QLIKE: -6.46459 
+
+Lowest QLIKE: arma(0,0)+garch(1,1) 
+Lowest MSE: arma(0,2)+garch(2,2) 

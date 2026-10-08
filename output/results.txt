@@ -1,0 +1,23 @@
+S&P 500 daily log returns, 2000-01-01 to 2022-11-12
+  observations: 5754
+  mean:         0.000174
+  sd:           0.012532
+
+Runs test:            p = 3.47e-06
+Ljung-Box (lag 10):   p = 2.22e-16
+ADF:                  stat = -18.101, p = 0.01
+
+Best ARMA by AIC:     ARMA(0,1)  AIC = -34129.35
+
+Models fitted:        54 of 54
+Best ARMA-GARCH:      arma(1,1)+garch(2,2)  AIC = -6.43447
+Runner up:            arma(0,2)+garch(2,2)  AIC = -6.43445
+
+Ljung-Box on standardised residuals (lag 10): p = 0.5292
+Excess kurtosis of standardised residuals:    1.727
+
+ARMA(1,1)+GARCH(2,2) under SGED
+  AIC, normal: -6.43447
+  AIC, SGED:   -6.49688
+  shape:       1.3689
+  skew:        0.8561

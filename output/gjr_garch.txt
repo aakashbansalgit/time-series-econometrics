@@ -1,0 +1,16 @@
+GARCH(1,1) SGED
+  AIC: -6.49372 
+  BIC: -6.48446 
+  loglik: 18690.42 
+
+GJR-GARCH(1,1) SGED
+  AIC: -6.52179 
+  BIC: -6.51137 
+  loglik: 18772.18 
+
+        Estimate  Std. Error  t value Pr(>|t|)
+gamma1   0.16908      0.0588  2.87529  0.00404
+
+LR, GJR vs GARCH: 163.522 p: 0 
+null device 
+          1 
