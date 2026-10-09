@@ -1,5 +1,10 @@
 # time-series-econometrics
 
+[![tests](https://github.com/aakashbansalgit/time-series-econometrics/actions/workflows/tests.yml/badge.svg)](https://github.com/aakashbansalgit/time-series-econometrics/actions/workflows/tests.yml)
+
+S&P 500 volatility in R: model selection, a significant leverage effect (GJR gamma 0.169, p = 0.004), out-of-sample forecasts, and a VaR backtest where the skewed distribution passes and the normal fails.
+
+![](figures/news_impact.png)
 ARMA-GARCH models of S&P 500 daily returns in R. It started as a homework for Statistical Methods in Finance (IE 522) at the University of Illinois. I later rewrote it and added a test for asymmetry, out-of-sample forecasts and a value-at-risk backtest.
 
 ## Data
